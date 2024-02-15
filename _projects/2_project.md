@@ -12,6 +12,12 @@ In a groundbreaking collaboration between the CHEI Lab of University of Californ
 
 Pengcheng Cao, Mechanical Engineering PhD student, and Dr. Falko Kuester, Full Professor and PI of CHEI Lab, brought forth the idea of developing a novel compact tunnel inspecting UGV in early 2023. This ambitious undertaking aims to kick off the development, integration, and field testing of the DamBot Mini, a specialized UGV designed to navigate the interior of dams and capture essential data. And later, it has been supported and sponsored by Jordan Klein and Anton Netchaev, Research Engineers at the U.S. Army Engineer Research and Development Center (ERDC). What sets DamBot Mini apart is its sophisticated sensor hardware and software stack, a fusion of cutting-edge technologies that make it a true marvel in the field of robotics and remote inspection.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/exp_setup.png" title="Dambot Mini Setup" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 Situation: Tasked with designing and building an autonomous mobile robot to survey subterranean and tunnel environments within a summer (3 months), which was a very challenging task as this was the first time I worked on robots driving in tough environments and with multi-sensor integration.
 
 Task: My role was to manage the project team, oversee the development of the robot, ensure timely delivery, and hopefully deliver a high-quality research paper.
@@ -20,22 +26,18 @@ Action: I worked closely with the student interns working under me, learned and 
 
 Result: Successfully delivered the robot 1 week ahead of schedule. The robot was successfully deployed to survey the Mojave River Dam tunnel with no technical issues. We were also able to publish a relevant research paper on semantic segmentation from multi-sensor perception in the proceedings of 2023 IEEE Robotic Computing Conference (<30% acceptance rate).
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/exp_setup.png" title="Dambot Mini Setup" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
-<div class="row" align="center">
-    [![LiDAR SLAM Demo](https://img.youtube.com/vi/nzN0d7lsuig/0.jpg)](https://www.youtube.com/watch?v=nzN0d7lsuig "Direct-LIO Experiment")
+
+<div class="SLAM-demo-video" align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nzN0d7lsuig?si=ujzrfBKXDpOncFfq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <div class="caption">
     LiDAR Test with Direct Lidar-Inertial Odometry.
 </div>
 
-<div class="row" align="center">
-    [![Fused Mapping](https://img.youtube.com/vi/4DpNuhWKShw/0.jpg)](https://www.youtube.com/watch?v=4DpNuhWKShw "Fused Mapping Demo")
+<div class="fused-mapping-demo-video" align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4DpNuhWKShw?si=UOphj4L1KGiSJQyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <div class="caption">
