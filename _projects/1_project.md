@@ -47,7 +47,7 @@ The landing and perching related mechanism and controls design is also of great 
 
 [![BeagleMAV Flight Demo](https://img.youtube.com/vi/0P7kTeUToKM/0.jpg)](https://www.youtube.com/watch?v=0P7kTeUToKM "BeagleMAV Flight Demo")
 
-<div class="caption">
+<!-- <div class="caption">
     BeagleMAV Test Flight Video.
-</div>
+</div> -->
 
