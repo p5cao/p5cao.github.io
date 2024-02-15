@@ -22,10 +22,10 @@ Result: Successfully delivered the robot 1 week ahead of schedule. The robot was
 
 
 ```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/exp_setup.png" title="Dambot Mini Setup" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="https://github.com/p5cao/p5cao.github.io/blob/master/assets/img/exp_setup.png" title="Dambot Mini Setup" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 ```
 
