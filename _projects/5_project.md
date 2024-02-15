@@ -21,7 +21,9 @@ Scoring:
 The goal of the competition is to move as many objects as possible from the paper to the box within 7mins. Each team can choose between a completely autonomous approach or a teleoperated approach. The scoring for the competition will be as follows:
 
 Autonomous  					    		        +9 per object in box
+
 Teleop (primarily not using adeept code base)		+3 per object in box
+
 Teleop (using adeept code base)				        +1 per object in box
 
 Bonus task! 
@@ -50,7 +52,7 @@ We (Team Weather Report) won the first place! Enjoy the attached video.
 </div>
 
 <div class="hackathon-demo-video" align="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/MKEA58bmy7I?si=8SYiX7NR85zc5q3q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Hz4zMeq8Sfs?si=Lsd9VcuK4Yc2x_in&amp;start=1136" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <div class="caption">
