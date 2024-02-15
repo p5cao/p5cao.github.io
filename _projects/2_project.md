@@ -26,17 +26,17 @@ Result: Successfully delivered the robot 1 week ahead of schedule. The robot was
     </div>
 </div>
 
-<p align="center">
+<div class="row" align="center">
     [![LiDAR SLAM Demo](https://img.youtube.com/vi/nzN0d7lsuig/0.jpg)](https://www.youtube.com/watch?v=nzN0d7lsuig "Direct-LIO Experiment")
-</p>
+</div>
 
 <div class="caption">
     LiDAR Test with Direct Lidar-Inertial Odometry.
 </div>
 
-<p align="center">
+<div class="row" align="center">
     [![Fused Mapping](https://img.youtube.com/vi/4DpNuhWKShw/0.jpg)](https://www.youtube.com/watch?v=4DpNuhWKShw "Fused Mapping Demo")
-</p>
+</div>
 
 <div class="caption">
     Fused Mappiing with Multi-Modal Densor Stack and R3live.
