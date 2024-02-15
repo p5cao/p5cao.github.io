@@ -21,7 +21,7 @@ To give your project a background in the portfolio page, just add the img tag to
     img: /assets/img/12.jpg
     --- -->
 
-Current multi-rotor designs typically arrange their propellers in the same plane, or with a small radially-symmetric inward tilt, in order to provide efﬁcient vertical thrust. This results in an under-actuated system that must roll and pitch in order to move laterally. Others have proposed and examined the beneﬁts of conﬁguring a 6-rotor airframe with tilted rotors such that thrust can be directly applied parallel to the ground, eliminating the need to roll or pitch. Existing investigations into such 6 degree-of-freedom control strategies begin with a rotor layout and orientations before analyzing the resulting performance.
+Current multi-rotor designs typically arrange their propellers in the same plane, or with a small radially-symmetric inward tilt, in order to provide efficient vertical thrust. This results in an under-actuated system that must roll and pitch in order to move laterally. Others have proposed and examined the benefits of configuring a 6-rotor airframe with tilted rotors such that thrust can be directly applied parallel to the ground, eliminating the need to roll or pitch. Existing investigations into such 6 degree-of-freedom control strategies begin with a rotor layout and orientations before analyzing the resulting performance.
 
 This BeagleBone Micro Aerial Vehicle (BeagleMAV) platform instead, presents a method to find the optimum rotor orientations that maximize desired performance characteristics for given airframe parameters such as mass and motor characteristics. As part of the optimization process, the multi-rotor’s mixing matrix is calculated and used in the proposed performance metric describing the resulting multi-rotor’s available control authority in realistic situations {% cite strawson2021rotor %}.
 
@@ -45,7 +45,7 @@ A set of techniques to systematically analyze and design the monocoque airframe 
 The landing and perching related mechanism and controls design is also of great interest in terms of the BeagleMAV’s application in search and rescue and sensor deployment in the post-disaster scenario with confined spaces and uneven surfaces. A novel soft-robotic gripper design is being developed and will be presented in the future publications, which integrates both the features of contact-driven deformation and tendon-driven actuation. The gripper consists of one or two pairs of tendon-driven compliant fingers, each pair equipped with a tendon winch driven by a servo motor, and a base plate to connect the gripper system to the vehicle main body. With its novel finger design, the gripper can grasp objects with various shapes and sizes with sub-second (~0.8s) actuation and can support loads of up to 20 N with a pair of fingers with its total weight of less than 100 g.
 
 
-[![BeagleMAV Flight Demo](https://github.com/p5cao/p5cao.github.io/blob/master/assets/img/BMAV_in_flight.png)](https://www.youtube.com/watch?v=0P7kTeUToKM "BeagleMAV Flight Demo")
+[![BeagleMAV Flight Demo](https://img.youtube.com/vi/0P7kTeUToKM/0.jpg)](https://www.youtube.com/watch?v=0P7kTeUToKM "BeagleMAV Flight Demo")
 
 <div class="caption">
     BeagleMAV Test Flight Video.
