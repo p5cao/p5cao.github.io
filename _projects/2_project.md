@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dambot Mini
-description: a project with a background image and giscus comments
+description: UGV Navigation and Mapping in Tunnels
 img: assets/img/Dambot_Halloween.jpg
 importance: 2
 category: Research
