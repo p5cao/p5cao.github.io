@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  "I wished to examine into all that concerns heaven and man, to penetrate the changes of the past and present, completing all as the work of one family." #- Sima Qian (司马迁)
+subtitle: Engineer, Scholar, Gamer, and World Explorer.
 
 profile:
   align: right
@@ -25,7 +25,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Engineer, Scholar, Gamer, and World Explorer.
+ "I wished to examine into all that concerns heaven and man, to penetrate the changes of the past and present, completing all as the work of one family." -- Sima Qian (司马迁)
 
 As a Ph.D. candidate in Mechanical Engineering at UC San Diego, I am passionate about solving complex engineering problems that have real-world applications and impact. My research focuses on designing, optimizing, and controlling fully-actuated multirotor Unmanned Aerial Vehicles (UAVs) for specific search-and-rescue missions in GPS-denied indoor environments. I have developed and implemented novel methods and algorithms for mission-oriented multi-disciplinary design optimization, robust and accurate trajectory tracking, and multi-sensor fusion for indoor navigation and collision avoidance.
 
