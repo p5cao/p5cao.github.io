@@ -15,19 +15,12 @@ Trace width: 5mil (0.127 mm, same as our default trace setting) used.
 DETAILS:
 
 For width 0.127 mm (5 mil, same as our default trace setting), thickness 1 oz/ft^2, temperature 25 degrees Celcius, and length 100mm, the estimated trace resistance will be 0.382 Ohms, leading to a max voltage drop 0.382 Ohms*25 mA = 0.00955 V = 0.23% of the Voltage source. 
-	Ref: http://circuitcalculator.com/wordpress/2006/01/24/trace-resistance-calculator
+
+
+Ref: http://circuitcalculator.com/wordpress/2006/01/24/trace-resistance-calculator
 
 We are choosing the LTST-C170 series of LEDs emitting red, yellow, and blue lights manufactured by LITE-ON Technology Corporation. The red, yellow, and blue LEDs are of the MFR number LTST-C170KRKT, LTST-C170KSKT, and LTST-C170TBKT respectively.  The layout of LEDs ( for X-type rotor layout) will be as follows: 
 
-*****************************************************************************************
---On the top:
-4 blues on the top left arm ----------------------------------- 4 blues on the top right arm
-1 yellow on the left front of the main board---------------N/A 
-1 blue and 1 red on the bottom left arm ------------------- 1 yellow and 1 red on the bottom right arm
---On the bottom:
-1 blue on the top left arm ------------------------------------- 1 blue on the top right arm
-1 blue on the left middle of the main board -------------- N/A
-1 yellow on the bottom left arm ----------------------------- 1 yellow on the bottom right arm
 *****************************************************************************************  
 Note: All the LEDs on the left will be driven by one MOSFET, and the ones on the right will be driven by another MOSFET.
 
@@ -82,17 +75,18 @@ Checks (DRC):
 
 
 <div class="row">
-    <div class="col-sm mt-2 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/MCU_schematics.jpg" title="MCU schematics" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-2 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/quad_schematic.png" title="quadrotor schematics" class="img-fluid rounded z-depth-1" %}
 </div>
+
 <div class="caption">
     Left, MCU schematics. Right, quadrotor system schematics.
 </div>
 
 <div class="row">
-    <div class="col-sm mt-2 mt-md-0">
+    <div class="col-sm mt-23 mt-md-0">
         {% include figure.liquid path="assets/img/flying.jpg" title="killersquad in flight" class="img-fluid rounded z-depth-1" %}
 </div>
