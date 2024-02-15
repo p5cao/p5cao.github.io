@@ -2,80 +2,42 @@
 layout: page
 title: Dambot Mini
 description: a project with a background image and giscus comments
-img: assets/img/dambot_mini.jpg
+img: assets/img/Dambot_Halloween.jpg
 importance: 2
 category: Research
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In a groundbreaking collaboration between the CHEI Lab of University of California, San Diego and the United States Army Corps of Engineers (USACE), a cutting-edge project known as DamBot Mini is set to revolutionize the world of dam inspection and maintenance. Developed as a part of a sub-task dedicated to advancing the capabilities of uncrewed ground vehicles (UGVs), the DamBot Mini project represents a significant leap forward in remote inspection technology and the creation of 3D digital twins for critical infrastructure.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Pengcheng Cao, Mechanical Engineering PhD student, and Dr. Falko Kuester, Full Professor and PI of CHEI Lab, brought forth the idea of developing a novel compact tunnel inspecting UGV in early 2023. This ambitious undertaking aims to kick off the development, integration, and field testing of the DamBot Mini, a specialized UGV designed to navigate the interior of dams and capture essential data. And later, it has been supported and sponsored by Jordan Klein and Anton Netchaev, Research Engineers at the U.S. Army Engineer Research and Development Center (ERDC). What sets DamBot Mini apart is its sophisticated sensor hardware and software stack, a fusion of cutting-edge technologies that make it a true marvel in the field of robotics and remote inspection.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Situation: Tasked with designing and building an autonomous mobile robot to survey subterranean and tunnel environments within a summer (3 months), which was a very challenging task as this was the first time I worked on robots driving in tough environments and with multi-sensor integration.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Task: My role was to manage the project team, oversee the development of the robot, ensure timely delivery, and hopefully deliver a high-quality research paper.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Action: I worked closely with the student interns working under me, learned and got help from the experts in this area, performed agile development iterations and documented all progresses and issues, and negotiated with stakeholders to secure additional resources.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Result: Successfully delivered the robot 1 week ahead of schedule. The robot was successfully deployed to survey the Mojave River Dam tunnel with no technical issues. We were also able to publish a relevant research paper on semantic segmentation from multi-sensor perception in the proceedings of 2023 IEEE Robotic Computing Conference (<30% acceptance rate).
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
 
 ```html
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/exp_setup.png" title="Dambot Mini Setup" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 ```
 
-{% endraw %}
+[![LiDAR SLAM Demo](assets/img/SLAM_thumbnail.png](https://www.youtube.com/watch?v=nzN0d7lsuig "Direct-LIO Experiment")
+
+<div class="caption">
+    BeagleMAV Test Flight Video.
+</div>
+
+
+[![Fused Mapping](assets/img/fused_thumbnail.png](https://www.youtube.com/watch?v=4DpNuhWKShw "Fused Mapping Demo")
+
+<div class="caption">
+    BeagleMAV Test Flight Video.
+</div>
