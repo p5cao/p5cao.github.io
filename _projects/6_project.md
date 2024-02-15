@@ -10,20 +10,8 @@ category: Fun
 OVERVIEW: 
 18 LED lights in total will be used on the board -- 13 on the top and 5 on the bottom. Note that we are not including the two indicator LEDs (1 red and 1 green) near the MCU in this note.
 
----------------------------------------------------------------------------------------------------------------------------------------
-Color        expected max current          forward voltages          max Supply voltages                   resistor values 
----------------------------------------------------------------------------------------------------------------------------------------
-Red	              25 mA			              2 V		               4.2 V			                88 Ohm (86.6 Ohm used)
----------------------------------------------------------------------------------------------------------------------------------------
-Yellow 	          25 mA			              2 V		               4.2 V			                88 Ohm (86.6 Ohm used)
----------------------------------------------------------------------------------------------------------------------------------------
-Blue	          25 mA			             3.5 V	 	               4.2 V			                28 Ohm
----------------------------------------------------------------------------------------------------------------------------------------
-
 Trace width: 5mil (0.127 mm, same as our default trace setting) used.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 DETAILS:
 
 For width 0.127 mm (5 mil, same as our default trace setting), thickness 1 oz/ft^2, temperature 25 degrees Celcius, and length 100mm, the estimated trace resistance will be 0.382 Ohms, leading to a max voltage drop 0.382 Ohms*25 mA = 0.00955 V = 0.23% of the Voltage source. 
@@ -53,7 +41,8 @@ The Blue LEDs also have the maximum forward current of 25mA (mapped to 1.2 relat
 
 All the resistors are selected from the same series, Yageo RC, as the resistor in the custom library we built before, and also share the same mounting pad sizes and footprint. 
 
-Design reviews
+
+DESIGN REVIEW for OTHERS:
 
 Antenna and Antenna Driver:
 1. The wire connection for the antenna is right. However, mayber it's better to do an mimic placement on the board as given in the repo. More specifically,  capacitor C1 can be moved to right up to the Balun.
@@ -93,15 +82,17 @@ Checks (DRC):
 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/MCU_schematics.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.liquid path="assets/img/MCU_schematics.jpg" title="MCU schematics" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/quad_schematic.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.liquid path="assets/img/quad_schematic.png" title="quadrotor schematics" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="caption">
+    Left, MCU schematics. Right, quadrotor system schematics.
 </div>
 
-
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/flying.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.liquid path="assets/img/flying.jpg" title="killersquad in flight" class="img-fluid rounded z-depth-1" %}
 </div>
