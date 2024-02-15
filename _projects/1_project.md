@@ -44,8 +44,12 @@ A set of techniques to systematically analyze and design the monocoque airframe 
 
 The landing and perching related mechanism and controls design is also of great interest in terms of the BeagleMAV’s application in search and rescue and sensor deployment in the post-disaster scenario with confined spaces and uneven surfaces. A novel soft-robotic gripper design is being developed and will be presented in the future publications, which integrates both the features of contact-driven deformation and tendon-driven actuation. The gripper consists of one or two pairs of tendon-driven compliant fingers, each pair equipped with a tendon winch driven by a servo motor, and a base plate to connect the gripper system to the vehicle main body. With its novel finger design, the gripper can grasp objects with various shapes and sizes with sub-second (~0.8s) actuation and can support loads of up to 20 N with a pair of fingers with its total weight of less than 100 g.
 
-<div class="row" align="center">
+<!-- <div class="row" align="center">
     [![BeagleMAV Flight Demo](https://img.youtube.com/vi/0P7kTeUToKM/0.jpg)](https://www.youtube.com/watch?v=0P7kTeUToKM "BeagleMAV Flight Demo")
+</div> -->
+
+<div class="flight-demo-video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0P7kTeUToKM?si=HLinKnjUIjn19VJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <div class="caption">
