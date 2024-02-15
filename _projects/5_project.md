@@ -1,80 +1,60 @@
 ---
 layout: page
 title: pick and drop sponges
-description: a project with a background image
+description: RoboGrads Hackathon 2021 Winner.
 img: assets/img/robot_arm_1.png
-importance: 3
+importance: 2
 category: Fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The robot we used is the New Robotic Arm Kit for Arduino by Adeept. You can find more information about the robot and some starting code here: https://www.adeept.com/learn/detail-31.html
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Robot and Competition Set up:
+
+Instructions on how to assemble the robot are given in pdf from the adeept link above. A video is also available here. As a note, when assembling the robot take note of the servo positions to optimize your grasping capabilities. These servos are 180° and not 360°. 
+
+All scrub foam objects are to be placed on a standard letter paper size, (8.5 inches by 11 inches) The objects can be placed at random or however you see fit such that each object touches the paper at the start.  We were allowed to tape the paper down if needed. The box that the robot comes in (show above), will be used as the container for grabbed objects. The placement and orientation of the paper, box and robot is up to each team. The box and paper must stay on the same plane. QR markers, colored tags and coloring the objects are allowed. External webcams and other cameras are also allowed. If you are unsure about some addition, feel free to ask. 
+
+
+Scoring:
+The goal of the competition is to move as many objects as possible from the paper to the box within 7mins. Each team can choose between a completely autonomous approach or a teleoperated approach. The scoring for the competition will be as follows:
+
+Autonomous  					    		        +9 per object in box
+Teleop (primarily not using adeept code base)		+3 per object in box
+Teleop (using adeept code base)				        +1 per object in box
+
+Bonus task! 
+Up to +5 points for a free form project demo. (see recording and final presentation)
+
+
+Result:
+We (Team Weather Report) won the first place! Enjoy the attached video.
+
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/sponge_identification.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/robot_picking.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/robot_dropping.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Left, robot identifying sponges. Middle, robot arm picking sponges. Right, robot arm dropping sponges in the bnox.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+
+<div class="hackathon-demo-video" align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MKEA58bmy7I?si=8SYiX7NR85zc5q3q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    RoboGrads Hackathon 2021 Finals.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
