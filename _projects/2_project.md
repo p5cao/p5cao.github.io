@@ -5,7 +5,7 @@ description: a project with a background image and giscus comments
 img: assets/img/Dambot_Halloween.jpg
 importance: 2
 category: Research
-giscus_comments: true
+related_publications: true
 ---
 
 In a groundbreaking collaboration between the CHEI Lab of University of California, San Diego and the United States Army Corps of Engineers (USACE), a cutting-edge project known as DamBot Mini is set to revolutionize the world of dam inspection and maintenance. Developed as a part of a sub-task dedicated to advancing the capabilities of uncrewed ground vehicles (UGVs), the DamBot Mini project represents a significant leap forward in remote inspection technology and the creation of 3D digital twins for critical infrastructure.
@@ -22,19 +22,21 @@ Result: Successfully delivered the robot 1 week ahead of schedule. The robot was
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="https://github.com/p5cao/p5cao.github.io/blob/master/assets/img/exp_setup.png" title="Dambot Mini Setup" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/exp_setup.png" title="Dambot Mini Setup" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-
-[![LiDAR SLAM Demo](assets/img/SLAM_thumbnail.png)](https://www.youtube.com/watch?v=nzN0d7lsuig "Direct-LIO Experiment")
+<p align="center">
+    [![LiDAR SLAM Demo](https://img.youtube.com/vi/nzN0d7lsuig/0.jpg)](https://www.youtube.com/watch?v=nzN0d7lsuig "Direct-LIO Experiment")
+</p>
 
 <div class="caption">
     LiDAR Test with Direct Lidar-Inertial Odometry.
 </div>
 
-
-[![Fused Mapping](assets/img/fused_thumbnail.png)](https://www.youtube.com/watch?v=4DpNuhWKShw "Fused Mapping Demo")
+<p align="center">
+    [![Fused Mapping](https://img.youtube.com/vi/4DpNuhWKShw/0.jpg)](https://www.youtube.com/watch?v=4DpNuhWKShw "Fused Mapping Demo")
+</p>
 
 <div class="caption">
     Fused Mappiing with Multi-Modal Densor Stack and R3live.
