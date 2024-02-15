@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
+title: Dambot Mini
 description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+img: assets/img/dambot_mini.jpg
 importance: 2
 category: Research
 giscus_comments: true

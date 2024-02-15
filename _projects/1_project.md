@@ -1,7 +1,7 @@
 ---
 layout: page
 title: BeagleMAV
-description: a project with a background image
+description: Hexrotor design enabling full 6DoF actuation.
 img: assets/img/beaglemav_on_printer.jpg
 importance: 1
 category: Research
@@ -44,7 +44,7 @@ A set of techniques to systematically analyze and design the monocoque airframe 
 
 The landing and perching related mechanism and controls design is also of great interest in terms of the BeagleMAV’s application in search and rescue and sensor deployment in the post-disaster scenario with confined spaces and uneven surfaces. A novel soft-robotic gripper design is being developed and will be presented in the future publications, which integrates both the features of contact-driven deformation and tendon-driven actuation. The gripper consists of one or two pairs of tendon-driven compliant fingers, each pair equipped with a tendon winch driven by a servo motor, and a base plate to connect the gripper system to the vehicle main body. With its novel finger design, the gripper can grasp objects with various shapes and sizes with sub-second (~0.8s) actuation and can support loads of up to 20 N with a pair of fingers with its total weight of less than 100 g.
 
-<div class="row justify-content-sm-center">
+<!-- <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -54,5 +54,7 @@ The landing and perching related mechanism and controls design is also of great 
 </div>
 <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+</div> -->
+
+[![Everything Is AWESOME](https://i.stack.imgur.com/q3ceS.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
 

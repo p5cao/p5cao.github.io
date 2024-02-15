@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Dr. Frank Cao's Project Portfolio.
 nav: true
 nav_order: 3
 display_categories: [Research, Fun]
