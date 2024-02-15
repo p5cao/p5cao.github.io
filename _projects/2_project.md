@@ -20,23 +20,21 @@ Action: I worked closely with the student interns working under me, learned and 
 
 Result: Successfully delivered the robot 1 week ahead of schedule. The robot was successfully deployed to survey the Mojave River Dam tunnel with no technical issues. We were also able to publish a relevant research paper on semantic segmentation from multi-sensor perception in the proceedings of 2023 IEEE Robotic Computing Conference (<30% acceptance rate).
 
-
-```html
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="https://github.com/p5cao/p5cao.github.io/blob/master/assets/img/exp_setup.png" title="Dambot Mini Setup" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-```
 
-[![LiDAR SLAM Demo](https://img.youtube.com/vi/nzN0d7lsuig/0.jpg)](https://www.youtube.com/watch?v=nzN0d7lsuig "Direct-LIO Experiment")
+
+[![LiDAR SLAM Demo](assets/img/SLAM_thumbnail.png)](https://www.youtube.com/watch?v=nzN0d7lsuig "Direct-LIO Experiment")
 
 <div class="caption">
     LiDAR Test with Direct Lidar-Inertial Odometry.
 </div>
 
 
-[![Fused Mapping](https://img.youtube.com/vi/4DpNuhWKShw/0.jpg)](https://www.youtube.com/watch?v=4DpNuhWKShw "Fused Mapping Demo")
+[![Fused Mapping](assets/img/fused_thumbnail.png)](https://www.youtube.com/watch?v=4DpNuhWKShw "Fused Mapping Demo")
 
 <div class="caption">
     Fused Mappiing with Multi-Modal Densor Stack and R3live.
