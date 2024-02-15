@@ -29,14 +29,14 @@ Result: Successfully delivered the robot 1 week ahead of schedule. The robot was
 </div>
 ```
 
-[![LiDAR SLAM Demo](assets/img/SLAM_thumbnail.png)](https://www.youtube.com/watch?v=nzN0d7lsuig "Direct-LIO Experiment")
+[![LiDAR SLAM Demo](https://github.com/p5cao/p5cao.github.io/blob/master/assets/img/SLAM_thumbnail.png)](https://www.youtube.com/watch?v=nzN0d7lsuig "Direct-LIO Experiment")
 
 <div class="caption">
     LiDAR Test with Direct Lidar-Inertial Odometry.
 </div>
 
 
-[![Fused Mapping](assets/img/fused_thumbnail.png)](https://www.youtube.com/watch?v=4DpNuhWKShw "Fused Mapping Demo")
+[![Fused Mapping](https://github.com/p5cao/p5cao.github.io/blob/master/assets/img/fused_thumbnail.png)](https://www.youtube.com/watch?v=4DpNuhWKShw "Fused Mapping Demo")
 
 <div class="caption">
     Fused Mappiing with Multi-Modal Densor Stack and R3live.
