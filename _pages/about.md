@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  "I wished to examine into all that concerns heaven and man, to penetrate the changes of the past and present, completing all as the work of one family." - Sima Qian (司马迁)
+subtitle:  "I wished to examine into all that concerns heaven and man, to penetrate the changes of the past and present, completing all as the work of one family." #- Sima Qian (司马迁)
 
 profile:
   align: right
