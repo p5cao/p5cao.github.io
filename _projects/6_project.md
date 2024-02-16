@@ -15,7 +15,6 @@ OVERVIEW:
 Trace width: 5mil (0.127 mm, same as our default trace setting) used.
 
 <div class="row" align = "center">
-    <div class="col-sm mt-3 mt-md-0">
         <img src="assets/img/flying_gif.gif" alt="this slowpoke moves"  width="560" />
 </div>
 
