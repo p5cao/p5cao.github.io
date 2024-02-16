@@ -7,6 +7,11 @@ importance: 6
 category: Fun
 ---
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/flying.jpg" title="killersquad in flight" class="img-fluid rounded z-depth-1" %}
+</div>
+
 OVERVIEW: 
 18 LED lights in total will be used on the board -- 13 on the top and 5 on the bottom. Note that we are not including the two indicator LEDs (1 red and 1 green) near the MCU in this note.
 
@@ -86,7 +91,3 @@ Checks (DRC):
     Left, MCU schematics. Right, quadrotor system schematics.
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/flying.jpg" title="killersquad in flight" class="img-fluid rounded z-depth-1" %}
-</div>

@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Pengcheng Frank Cao",
+    "name": "Pengcheng Cao",
     "label": "PhD Mechanical Engineer, EIT Mechanical",
     "image": "",
     "email": "p5cao@ucsd.edu",
@@ -83,20 +83,6 @@
       "icon": ""
     } 
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
   "references": [
     {
       "name": "Mr. Bensen Xie",
@@ -112,11 +98,6 @@
       "name": "Professor Thomas Bewley",
       "icon": "fa-solid fa-thumbtack",
       "reference": "tbewley@ucsd.edu"
-    }
-  ],
-  "projects": [
-    {
-      "url": "https://p5cao.github.io/projects/"
     }
   ]
 }
