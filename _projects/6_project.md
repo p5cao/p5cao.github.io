@@ -72,8 +72,9 @@ LEDs:
 1. The calculation is questionable (your final computed through current is said to be 3.94mA, however, this will lead to a different forward voltage again instead of the 2.0-2.1V, which is not matching). Since the through current depends on the forward voltage, the reasonable way is: first, set your expected through current and find the corresponding forward voltage; then, basing on your forward voltage and source voltage, calculate the remaining voltage the attached resistor should undertake; finally, you will have the value of the resistor based on the remaining voltage and through current.
 
 <div class="row" align = "center">
-        <img src="https://github.com/p5cao/p5cao.github.io/blob/master/assets/img/flying_gif.gif" alt="flying in class"  width="560" />
+        {% include figure.liquid path="assets/img/quad.jpg" title="quadcopter photo" class="img-fluid rounded z-depth-1" %}
 </div>
+
 
 
 <div class="row" align = "center">
