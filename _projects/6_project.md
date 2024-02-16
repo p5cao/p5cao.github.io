@@ -14,9 +14,7 @@ OVERVIEW:
 
 Trace width: 5mil (0.127 mm, same as our default trace setting) used.
 
-<div class="row" align = "center">
-        <img src="assets/img/flying_gif.gif" alt="this slowpoke moves"  width="560" />
-</div>
+
 
 DETAILS:
 
@@ -73,18 +71,20 @@ Mechanical:
 LEDs:
 1. The calculation is questionable (your final computed through current is said to be 3.94mA, however, this will lead to a different forward voltage again instead of the 2.0-2.1V, which is not matching). Since the through current depends on the forward voltage, the reasonable way is: first, set your expected through current and find the corresponding forward voltage; then, basing on your forward voltage and source voltage, calculate the remaining voltage the attached resistor should undertake; finally, you will have the value of the resistor based on the remaining voltage and through current.
 
-
+<div class="row" align = "center">
+        <img src="assets/img/flying_gif.gif" alt="this slowpoke moves"  width="560" />
+</div>
 
 
 <div class="row" align = "center">
-    <div class="col-sm mt-2 mt-md-0">
         {% include figure.liquid path="assets/img/MCU_schematics.jpg" title="MCU schematics" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-2 mt-md-0">
+</div>
+
+<div class="row" align = "center">
         {% include figure.liquid path="assets/img/quad_schematic.png" title="quadrotor schematics" class="img-fluid rounded z-depth-1" %}
 </div>
 
 <div class="caption">
-    Left, MCU schematics. Right, quadrotor system schematics.
+    MCU schematics and quadrotor system schematics.
 </div>
 
