@@ -30,7 +30,6 @@
       "startDate": "2024-01-11",
       "endDate": "Current",
       "summary": "Working with CHEI Lab and Qualcomm Institute of UC San Diego, pushing forward all research projects."
-      // "highlights": ["Relativity"]
     },
     {
       "name": "Value Wholesaler",
@@ -46,14 +45,25 @@
     {
       "institution": "University of California San Diego",
       "location": "San Diego, CA, USA",
-      // "url": "https://www.uzh.ch/",
       "area": "Mechanical Engineering",
       "studyType": "PhD",
       "startDate": "2019-09-20",
       "endDate": "2024-03-31",
       "score": "10",
-      "courses": ["Computer Aided Design", "Robotics", "Machine Learning", "Reinforcement Learning", "Computer Vision"]
+      "courses": ["Computer Aided Design", "Robotics", "Machine Learning", "Reinforcement Learning", "Computer Vision", "Dynamic Systems and Control"]
+    },
+
+    {
+      "institution": "Shandong University",
+      "location": "Shandong, China",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2012-09-20",
+      "endDate": "2016-06-30",
+      "score": "10",
+      "courses": ["Computer Aided Design", "CFD", "Matlab", "Heat Transfer","Fluid Mechanics", "Solid Mechanics"]
     }
+
   ],
 
   "languages": [
