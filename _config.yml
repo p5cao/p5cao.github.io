@@ -8,7 +8,7 @@ middle_name: Frank
 last_name: Cao
 email: p5cao@ucsd.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Pengcheng Frank Cao — robotics researcher working on UAV control, nuclear robotics, and AI. Ph.D., UC San Diego.
+  Pengcheng Cao, PhD — Robotics Engineer at Trubot Technology (data center robotics, UAV control, nuclear robotics). Ph.D., UC San Diego.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -71,7 +71,7 @@ github_username: p5cao # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: pengcheng-frank-cao-a5349b125 # your LinkedIn user name
+linkedin_username: pengcheng-cao-phd-a5349b125 # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: gL-oJ-YAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID

@@ -2,96 +2,57 @@
   type: map
   contents:
     - name: Full Name
-      value: P. Frank Cao
-    - name: Date of Birth
-      value: 17th March 1994
+      value: Pengcheng Frank Cao, PhD
+    - name: Location
+      value: San Francisco Bay Area, California
     - name: Languages
       value: Chinese, English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of California, San Diego, USA
-      year: 2024
+    - title: Ph.D. in Mechanical Engineering
+      institution: University of California, San Diego
+      year: 2018 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    # - title: Federal teaching diploma
-    #   institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-    #   year: 1900
-    #   description:
-    #     - Description 1.
-    #     - Description 2.
+        - GPA 3.86/4.00. Doctoral research on design, optimization, and control of fully-actuated multirotor UAVs for search-and-rescue in GPS-denied environments.
+        - Vice President, RoboGrads; Research Assistant, CHEI Lab; Research Affiliate, Qualcomm Institute.
+    - title: M.S. in Computer Science (Online)
+      institution: Arizona State University
+      year: 2024 - 2026
+      description:
+        - GPA 3.5/4.0.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Robotics Engineer
+      institution: Trubot Technology, Fremont, CA
+      year: 2026 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Data center robotics and AI infrastructure automation.
+    - title: Postdoctoral Research Associate
+      institution: Idaho National Laboratory, Idaho Falls, ID
+      year: 2024 - 2026
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Robotics and digital twins for radioactive environments.
+    - title: Postdoctoral Research Associate (Part-time)
+      institution: Washington State University, Pullman, WA
+      year: 2024
+    - title: Researcher / Ph.D. Candidate in Mechanical Engineering
+      institution: University of California, San Diego
+      year: 2018 - 2024
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Mission-oriented design optimization, flight control, and multi-sensor fusion for fully-actuated multirotor UAVs.
+    - title: Academic Connections Lecturer
+      institution: UC San Diego Extended Studies
+      year: 2023
+      description:
+        - Instructor of the summer course "Introduction to Python Programming".
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: <a href="https://github.com/p5cao/BeagleRover">BeagleRover</a>
+      year: 2022
+      description: An open-source 3D-printable robotic platform for engineering education and research.
